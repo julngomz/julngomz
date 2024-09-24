@@ -4,7 +4,7 @@
 [![GitHub julngomz](https://img.shields.io/github/followers/julngomz?label=follow&style=social)](https://github.com/julngomz)
 
 
-## About Me
+## <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2ZnYmE1ZzQyZXhjcTQ0OWJsYmlkMW0xejQ1c2hhaWZpdzEzYnhqZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/j243B5nTj6aP4tE9fJ/giphy.webp" width="75" /> About Me
 
 ```elixir
 root@github ~> iex
@@ -58,3 +58,6 @@ iex(2)> profile = %Profile{
 - _INSPIRED: How to Create Teach products Customers Love_ by Marty Cagan
 - _The 80/20 Principle, 3E, The Secret to Achieving More with Less_ by Richard Koch
 - _Ultraleraning: Accelerate Your Career, Master Hard Skills and Outsmart the Competition_ by Scott H. Young
+
+<br/>
+<p align="center"><img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnB6OWdtY2FnYmw0d241YXFscHVpMmczdjIwY2IzbWRtdHhpNHZvcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Hws7aKoFHS9gs/giphy.webp" /></p>
