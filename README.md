@@ -15,6 +15,7 @@ iex(1)> alias User.{Profile, Education, TechStack, Contact}
 {User.Profile, User.Education, User.TechStack, User.Contact}
 iex(2)> profile = %Profile{
 ...(2)>     full_name: "Julia Gomez",
+...(2)>     email: {"julngomz", "gmail.com"},
 ...(2)>     location: "IOWA",
 ...(2)>     current_focus: "Aspiring SaaS startup founder.",
 ...(2)>     academics: %Education{
