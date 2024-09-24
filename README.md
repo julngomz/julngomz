@@ -29,6 +29,7 @@ julngomz = %Programmer{
   paradigms: ["Functional", "Object-Oriented", "Data-Oriented"],
   architectures: ["Microservices", "Monolithic", "Serverless"],
   databases: ["RDBMS", "NoSQL", "In-Memory"],
+  cool_dude?: true,
 }
 ```
 
