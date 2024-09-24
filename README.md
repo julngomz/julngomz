@@ -1,6 +1,5 @@
 <img align='left' src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDN3OTc4eWRkdWdyaDZhdDFtajY2b3lhY3E3ZWt6dTl2Y2lhYm9wOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oEduQ3ily6GZYbMsM/giphy.webp" width="90" /><h1>Julian Gomez</h1>
 
-[![Instagram julngomz](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/julngomz)
 [![Linkedin: julngomz](https://img.shields.io/badge/-julngomz-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/julngomz/)](https://www.linkedin.com/in/julngomz/)
 [![GitHub julngomz](https://img.shields.io/github/followers/julngomz?label=follow&style=social)](https://github.com/julngomz)
 
