@@ -12,7 +12,7 @@ Erlang/OTP 27 [erts-15.0] [source] [64-bit] [smp:8:4] [ds:8:4:10] [async-threads
 
 Interactive Elixir (1.17.2) - press Ctrl+C to exit (type h() ENTER for help)
 iex(1)> alias User.{Profile, Education, TechStack, Contact}
-{User.Profile, User.Education, User.TechStack}
+{User.Profile, User.Education, User.TechStack, User.Contact}
 iex(2)> profile = %Profile{
 ...(2)>     full_name: "Julia Gomez",
 ...(2)>     location: "IOWA",
