@@ -8,29 +8,40 @@
 ## About Me
 
 ```elixir
-julngomz = %Programmer{
-  location: "IOWA",
-  current_focus: "Aspiring SaaS startup founder.",
-  academics: %Education{
-    drake_university: "Computer Science",
-    indian_hills_cc: {"Computer Software Development", "Web Development"},
-  },
-  hobbies: ["Kettlebells", "Cooking", "Nature Walks"],
-  tech_stack: %TechStack{
-    code: ["Elixir", "Rust", "HTML", "TailwindCSS", "CSS", "Python", "JavaScript"],
-    web: ["Phoenix Framework", "Phoenix LiveView", "VueJS"],
-    web_apps: ["SPA", "REST"],
-    database: ["PostgreSQL", "Redis", "Ecto"],
-    cloud: ["Amazon Web Services (AWS)", "FlyIO"],
-    dev_ops: ["Docker", "CI/CD", "Github Actions"],
-    tools: ["Neovim", "FISH", "Conda"],
-    os: "Linux",
-  },
-  paradigms: ["Functional", "Object-Oriented", "Data-Oriented"],
-  architectures: ["Microservices", "Monolithic", "Serverless"],
-  databases: ["RDBMS", "NoSQL", "In-Memory"],
-  cool_dude?: true,
-}
+root@github ~> iex
+Erlang/OTP 27 [erts-15.0] [source] [64-bit] [smp:8:4] [ds:8:4:10] [async-threads:1] [jit:ns]
+
+Interactive Elixir (1.17.2) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> alias Programmer.Profile
+Programmer.Profile
+iex(2)> user = %Profile{
+...(2)>     full_name: "Julia Gomez",
+...(2)>     location: "IOWA",
+...(2)>     current_focus: "Aspiring SaaS startup founder.",
+...(2)>     academics: %Education{
+...(2)>       drake_university: "Computer Science",
+...(2)>       indian_hills_cc: {"Computer Software Development", "Web Development"},
+...(2)>     },
+...(2)>     hobbies: ["Kettlebells", "Cooking", "Nature Walks"],
+...(2)>     tech_stack: %TechStack{
+...(2)>        code: ["Elixir", "Rust", "HTML", "TailwindCSS", "CSS", "Python", "JavaScript"],
+...(2)>        web: ["Phoenix Framework", "Phoenix LiveView", "VueJS"],
+...(2)>        web_apps: ["SPA", "REST"],
+...(2)>        database: ["PostgreSQL", "Redis", "Ecto"],
+...(2)>        cloud: ["Amazon Web Services (AWS)", "FlyIO"],
+...(2)>        dev_ops: ["Docker", "CI/CD", "Github Actions"],
+...(2)>        tools: ["Neovim", "FISH", "Conda"],
+...(2)>        os: "Linux",
+...(2)>     },
+...(2)>     paradigms: ["Functional", "Object-Oriented", "Data-Oriented"],
+...(2)>     architectures: ["Microservices", "Monolithic", "Serverless"],
+...(2)>     databases: ["RDBMS", "NoSQL", "In-Memory"],
+...(2)>     cool_dude?: true,
+...(2)> }
+%Profile{full_name: "Julian Gomez", ...}
+...(3)> user |> Programmer.Contact.send_msg()
+{:ok, "Looking forward to speaking with yah!"}
+...(4)> |
 ```
 
 ### Books
