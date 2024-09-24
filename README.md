@@ -38,7 +38,7 @@ iex(2)> user = %Profile{
 ...(2)>     cool_dude?: true,
 ...(2)> }
 %Profile{full_name: "Julian Gomez", ...}
-...(3)> user |> Programmer.Contact.send_msg()
+...(3)> user |> Programmer.Contact.send_msg({:msg, "wats up"})
 {:ok, "Looking forward to speak'n with yah!"}
 ...(4)> |
 ```
