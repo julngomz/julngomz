@@ -11,9 +11,9 @@ root@github ~> iex
 Erlang/OTP 27 [erts-15.0] [source] [64-bit] [smp:8:4] [ds:8:4:10] [async-threads:1] [jit:ns]
 
 Interactive Elixir (1.17.2) - press Ctrl+C to exit (type h() ENTER for help)
-iex(1)> alias Programmer.Profile
-Programmer.Profile
-iex(2)> user = %Profile{
+iex(1)> alias User.{Profile, Education, TechStack, Contact}
+{User.Profile, User.Education, User.TechStack}
+iex(2)> profile = %Profile{
 ...(2)>     full_name: "Julia Gomez",
 ...(2)>     location: "IOWA",
 ...(2)>     current_focus: "Aspiring SaaS startup founder.",
@@ -38,7 +38,7 @@ iex(2)> user = %Profile{
 ...(2)>     cool_dude?: true,
 ...(2)> }
 %Profile{full_name: "Julian Gomez", ...}
-...(3)> user |> Programmer.Contact.send_msg({:msg, "wats up"})
+...(3)> user |> Contact.send_msg({:msg, "wats up"})
 {:ok, "Looking forward to speak'n with yah!"}
 ...(4)> |
 ```
