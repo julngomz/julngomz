@@ -18,7 +18,7 @@ iex(2)> profile = %Profile{
 ...(2)>     email: {"julngomz", "gmail.com"},
 ...(2)>     location: "IOWA",
 ...(2)>     current_focus: "Aspiring SaaS startup founder.",
-...(2)>     academics: %Education{
+...(2)>     education: %Education{
 ...(2)>       drake_university: "Computer Science",
 ...(2)>       indian_hills_cc: {"Computer Software Development", "Web Development"},
 ...(2)>     },
