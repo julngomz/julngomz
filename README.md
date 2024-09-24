@@ -40,7 +40,7 @@ iex(2)> user = %Profile{
 ...(2)> }
 %Profile{full_name: "Julian Gomez", ...}
 ...(3)> user |> Programmer.Contact.send_msg()
-{:ok, "Looking forward to speaking with yah!"}
+{:ok, "Looking forward to speak'n with yah!"}
 ...(4)> |
 ```
 
