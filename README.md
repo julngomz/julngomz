@@ -4,7 +4,7 @@
 [![GitHub julngomz](https://img.shields.io/github/followers/julngomz?label=follow&style=social)](https://github.com/julngomz)
 
 
-## <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2ZnYmE1ZzQyZXhjcTQ0OWJsYmlkMW0xejQ1c2hhaWZpdzEzYnhqZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/j243B5nTj6aP4tE9fJ/giphy.webp" width="75" /> About Me
+## About Me
 
 ```elixir
 root@github ~> iex
